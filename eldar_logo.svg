@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="754.81915"
+   height="229.67451"
+   id="svg3752"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 754.81915 229.67451"
+   sodipodi:docname="eldar_logo.svg"
+   inkscape:export-filename="/home/agude/Projects/eldar.vim/eldar_logo.svg.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <title
+     id="title4718">Eldar Logo</title>
+  <defs
+     id="defs3754" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0606602"
+     inkscape:cx="443.16409"
+     inkscape:cy="11.804248"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1615"
+     inkscape:window-height="1026"
+     inkscape:window-x="1745"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3757">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Eldar Logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:date>2016-09-24</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Alexander Gude</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(26.684608,17.097137)">
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:#1a1a1a;stroke-width:9.58928871;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate"
+       id="rect3760"
+       width="745.22986"
+       height="220.08522"
+       x="-21.889963"
+       y="-12.302493" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="203.45642"
+       y="118.28426"
+       id="text3762"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3764"
+         x="203.45642"
+         y="118.28426"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';fill:#e6e6e6">Eldar</tspan></text>
+    <g
+       id="g4649"
+       transform="translate(-60.929539,-17.913372)">
+      <rect
+         y="162.31035"
+         x="85.058403"
+         height="10"
+         width="100"
+         id="rect3766-3"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ef2929;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+      <rect
+         y="162.31035"
+         x="195.69685"
+         height="10"
+         width="100"
+         id="rect3766-3-6"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+      <rect
+         y="162.31035"
+         x="306.3353"
+         height="10"
+         width="100"
+         id="rect3766-3-6-7"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+      <rect
+         y="162.31035"
+         x="416.97375"
+         height="10"
+         width="100"
+         id="rect3766-3-6-7-5"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#34e2e2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+      <rect
+         y="162.31035"
+         x="527.61218"
+         height="10"
+         width="100"
+         id="rect3766-3-6-7-5-3"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+      <rect
+         y="162.31035"
+         x="638.25061"
+         height="10"
+         width="100"
+         id="rect3766-3-6-7-5-5"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.39519405;stroke-miterlimit:4;stroke-dasharray:none;marker:none;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>
