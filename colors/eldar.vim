@@ -53,13 +53,23 @@ endif
 
 let g:colors_name = 'eldar'
 
-" Define colors (Tango)
-let s:red     = '#EF2929'
-let s:yellow  = '#FCE94F'
-let s:green   = '#8AE234'
-let s:cyan    = '#34E2E2'
-let s:blue    = '#729FCF'
-let s:magenta = '#AD7FA8'
+" Define colors (Tango is the default)
+function! s:GetGlobalColor(global_color, default_color)
+    " Check if the global_color is set, if so, return its value
+    if exists(a:global_color)
+        return {a:global_color}
+    " Otherwise, use the default_color value
+    else
+        return a:default_color
+    endif
+endfunction
+
+let s:red     = s:GetGlobalColor("g:eldar_red",     '#EF2929')
+let s:yellow  = s:GetGlobalColor("g:eldar_yellow",  '#FCE94F')
+let s:green   = s:GetGlobalColor("g:eldar_green",   '#8AE234')
+let s:cyan    = s:GetGlobalColor("g:eldar_cyan",    '#34E2E2')
+let s:blue    = s:GetGlobalColor("g:eldar_blue",    '#729FCF')
+let s:magenta = s:GetGlobalColor("g:eldar_magenta", '#AD7FA8')
 
 " The ColourAssignment map and function to unpack it are from the bandit
 " colorscheme by Al Bunden, available here:
