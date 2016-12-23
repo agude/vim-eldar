@@ -43,6 +43,9 @@
 "
 " ---------------------------------------------------------
 
+" Eldar is designed for dark backgrounds
+set background=dark
+
 highlight clear
 if exists('syntax_on')
   syntax reset
@@ -69,21 +72,9 @@ let s:ColourAssignment = {}
 " In most cases, only GUIFG is therefore important unless support for Black and White
 " terminals is essential
 
-" Set the Main Text and Background based on whether light or dark is selected.
-" This theme does not work well on light backgrounds, but at least this will
-" give you black text.
-if &background ==# 'dark'
-    let s:fg = 'White'
-    let s:bg = 'Black'
-else
-    let s:fg = 'Black'
-    let s:bg = 'White'
-endif
-
-
 " Editor settings
 " ---------------
-let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:fg,        'GUIBG':  s:bg}
+let  s:ColourAssignment['Normal']        =  {'GUIFG':  'White',     'GUIBG':  'Black'}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE'}
 let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}
@@ -137,7 +128,7 @@ let  s:ColourAssignment['Underlined']  =  {'GUIFG':  s:cyan,   'CTERMFG':  'cyan
 let  s:ColourAssignment['Error']       =  {'GUIFG':  s:red,    'GUIBG':    'Black',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['ErrorMsg']    =  {'GUIFG':  s:red,    'GUIBG':    'White',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['WarningMsg']  =  {'GUIFG':  s:red,    'CTERMFG':  'red'}
-let  s:ColourAssignment['Ignore']      =  {'GUIFG':  'bg',     'CTERMFG':  s:bg}
+let  s:ColourAssignment['Ignore']      =  {'GUIFG':  'bg',     'CTERMFG':  'Black'}
 let  s:ColourAssignment['SpecialKey']  =  {'GUIFG':  s:cyan,   'CTERMFG':  'Cyan'}
 
 
