@@ -11,7 +11,7 @@
 " Maintainer:   Alexander Gude
 " Email:        alex.public.account@gmail.com
 " File:         eldar.vim
-" URL:          github.com/agude/eldar.vim
+" URL:          github.com/agude/vim-eldar
 " License:      MIT
 "
 " ---------------------------------------------------------
