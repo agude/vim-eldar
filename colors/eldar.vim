@@ -84,7 +84,6 @@ let s:ColourAssignment = {}
 
 " Editor settings
 " ---------------
-let  s:ColourAssignment['Normal']        =  {'GUIFG':  'White',     'GUIBG':  'Black'}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'Black'}
 let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}
