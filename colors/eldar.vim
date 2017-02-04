@@ -64,12 +64,19 @@ function! s:GetGlobalColor(global_color, default_color)
     endif
 endfunction
 
-let s:red     = s:GetGlobalColor("g:eldar_red",     '#EF2929')
-let s:yellow  = s:GetGlobalColor("g:eldar_yellow",  '#FCE94F')
-let s:green   = s:GetGlobalColor("g:eldar_green",   '#8AE234')
-let s:cyan    = s:GetGlobalColor("g:eldar_cyan",    '#34E2E2')
-let s:blue    = s:GetGlobalColor("g:eldar_blue",    '#729FCF')
-let s:magenta = s:GetGlobalColor("g:eldar_magenta", '#AD7FA8')
+" GUI colors
+let s:red       = s:GetGlobalColor("g:eldar_red",        '#EF2929')
+let s:yellow    = s:GetGlobalColor("g:eldar_yellow",     '#FCE94F')
+let s:green     = s:GetGlobalColor("g:eldar_green",      '#8AE234')
+let s:cyan      = s:GetGlobalColor("g:eldar_cyan",       '#34E2E2')
+let s:blue      = s:GetGlobalColor("g:eldar_blue",       '#729FCF')
+let s:magenta   = s:GetGlobalColor("g:eldar_magenta",    '#AD7FA8')
+let s:gui_text  = s:GetGlobalColor("g:eldar_text",       'White')
+let s:gui_bg    = s:GetGlobalColor("g:eldar_background", 'Black')
+
+" Terminal colors
+let s:term_text  = s:GetGlobalColor("g:eldar_term_text",       'NONE')
+let s:term_bg    = s:GetGlobalColor("g:eldar_term_background", 'NONE')
 
 " The ColourAssignment map and function to unpack it are from the bandit
 " colorscheme by Al Bunden, available here:
@@ -84,6 +91,7 @@ let s:ColourAssignment = {}
 
 " Editor settings
 " ---------------
+let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:gui_text,  'GUIBG':  s:gui_bg,  'CTERMBG':  s:term_bg,  'CTERMFG':  s:term_text}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'Black'}
 let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}
@@ -116,8 +124,8 @@ let  s:ColourAssignment['IncSearch']  =  {'GUI':    'Reverse'}
 
 " Prompt/Status
 " -------------
-let  s:ColourAssignment['StatusLine']    =  {'GUI':    'Bold,Reverse'}
-let  s:ColourAssignment['StatusLineNC']  =  {'GUI':    'Reverse'}
+let  s:ColourAssignment['StatusLine']    =  {'GUIFG':  'White',         'GUIBG':    s:gui_bg,    'GUI': 'Bold,Reverse',  'CTERMFG':  'White',  'CTERMBG':  s:term_bg}
+let  s:ColourAssignment['StatusLineNC']  =  {'GUIFG':  'White',         'GUIBG':    s:gui_bg,    'GUI': 'Reverse',       'CTERMFG':  'White',  'CTERMBG':  s:term_bg}
 let  s:ColourAssignment['WildMenu']      =  {'GUIFG':  'White',         'GUIBG':    'DarkGrey',  'GUI':  'Bold'}
 let  s:ColourAssignment['Question']      =  {'GUIFG':  s:blue,          'CTERMFG':  'Blue'}
 let  s:ColourAssignment['Title']         =  {'GUI':    'Bold'}

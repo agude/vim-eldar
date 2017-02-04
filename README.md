@@ -66,6 +66,23 @@ if has('syntax')
     silent! colorscheme eldar " Custom color scheme
 endif
 ```
+The GUI text and background colors default to "White" and "Black"
+respectively. To change these, set the following variables:
+
+```vim
+g:eldar_text        = "#D3D3D3"
+g:eldar_background  = "#2B2B2B"
+```
+
+By default terminal vim will use the background color and text color defined
+by your terminal profile. To override these colors, set:
+
+```vim
+g:eldar_term_text        = "White"
+g:eldar_term_background  = "Black"
+```
+
+All these variables must be set before calling `colorscheme eldar`.
 
 ## Screenshots
 
