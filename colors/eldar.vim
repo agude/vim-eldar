@@ -54,29 +54,19 @@ endif
 let g:colors_name = 'eldar'
 
 " Define colors (Tango is the default)
-function! s:GetGlobalColor(global_color, default_color)
-    " Check if the global_color is set, if so, return its value
-    if exists(a:global_color)
-        return {a:global_color}
-    " Otherwise, use the default_color value
-    else
-        return a:default_color
-    endif
-endfunction
-
 " GUI colors
-let s:red       = s:GetGlobalColor("g:eldar_red",        '#EF2929')
-let s:yellow    = s:GetGlobalColor("g:eldar_yellow",     '#FCE94F')
-let s:green     = s:GetGlobalColor("g:eldar_green",      '#8AE234')
-let s:cyan      = s:GetGlobalColor("g:eldar_cyan",       '#34E2E2')
-let s:blue      = s:GetGlobalColor("g:eldar_blue",       '#729FCF')
-let s:magenta   = s:GetGlobalColor("g:eldar_magenta",    '#AD7FA8')
-let s:gui_text  = s:GetGlobalColor("g:eldar_text",       'White')
-let s:gui_bg    = s:GetGlobalColor("g:eldar_background", 'Black')
+let s:red       = get(g:, 'eldar_red', '#EF2929')
+let s:yellow    = get(g:, 'eldar_yellow', '#FCE94F')
+let s:green     = get(g:, 'eldar_green', '#8AE234')
+let s:cyan      = get(g:, 'eldar_cyan', '#34E2E2')
+let s:blue      = get(g:, 'eldar_blue', '#729FCF')
+let s:magenta   = get(g:, 'eldar_magenta', '#AD7FA8')
+let s:gui_text  = get(g:, 'eldar_text', 'White')
+let s:gui_bg    = get(g:, 'eldar_background', 'Black')
 
 " Terminal colors
-let s:term_text  = s:GetGlobalColor("g:eldar_term_text",       'NONE')
-let s:term_bg    = s:GetGlobalColor("g:eldar_term_background", 'NONE')
+let s:term_text  = get(g:, 'eldar_term_text', 'NONE')
+let s:term_bg    = get(g:, 'eldar_term_background', 'NONE')
 
 " The ColourAssignment map and function to unpack it are from the bandit
 " colorscheme by Al Bunden, available here:
