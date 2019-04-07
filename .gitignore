@@ -1,3 +1,7 @@
+# Local directories
+code/
+images/
+
 # Vim files from Github Gitignore:
 # https://github.com/github/gitignore/blob/master/Global/vim.gitignore
 *.s[a-w][a-z]
