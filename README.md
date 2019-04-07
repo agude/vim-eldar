@@ -1,4 +1,4 @@
-![Eldar logo](/images/eldar_logo.svg.png?raw=true "Eldar logo")
+![Eldar logo](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_logo.svg.png?raw=true "Eldar logo")
 
 Eldar is a dark color theme for Vim using bright, high-contrast colors. It is
 based on [elflord][elcs], one of the default Vim color schemes.
@@ -88,16 +88,16 @@ All these variables must be set before calling `colorscheme eldar`.
 
 ### Python
 
-![Example of Vim Eldar with Python](/images/eldar_python.png?raw=true "Example of Vim Eldar with Python")
+![Example of Vim Eldar with Python](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_python.png?raw=true "Example of Vim Eldar with Python")
 
 ### C++
 
-![Example of Vim Eldar with C++](/images/eldar_cpp.png?raw=true "Example of Vim Eldar with C++")
+![Example of Vim Eldar with C++](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_cpp.png?raw=true "Example of Vim Eldar with C++")
 
 ### Markdown
 
-![Example of Vim Eldar with Markdown](/images/eldar_markdown.png?raw=true "Example of Vim Eldar with Markdown")
+![Example of Vim Eldar with Markdown](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_markdown.png?raw=true "Example of Vim Eldar with Markdown")
 
 ### Diff
 
-![Example of Vim Eldar performing a diff](/images/eldar_diff.png?raw=true "Example of Vim Eldar performing a diff")
+![Example of Vim Eldar performing a diff](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_diff.png?raw=true "Example of Vim Eldar performing a diff")
