@@ -5,8 +5,7 @@ based on [elflord][elcs], one of the default Vim color schemes.
 
 [elcs]: https://github.com/vim/vim/blob/master/runtime/colors/elflord.vim
 
-![Example of Vim Eldar with Python](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_python.png?raw=true "Example of Vim Eldar with Python")
-![Example of Vim Eldar with C++](https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_cpp.png?raw=true "Example of Vim Eldar with C++")
+<img src="https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_python.png?raw=true" width="425" alt="Example of Vim Eldar with Python"/> <img src="https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_cpp.png?raw=true" width="425" alt="Example of Vim Eldar with C++"/> 
 
 Eldar looks great in both the GUI and terminal because it uses fewer than 16
 colors. Eldar uses the [Tango color palette][tango] in the GUI by default, but
