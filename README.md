@@ -5,6 +5,8 @@ based on [elflord][elcs], one of the default Vim color schemes.
 
 [elcs]: https://github.com/vim/vim/blob/master/runtime/colors/elflord.vim
 
+<img src="https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_python.png?raw=true" width="425" alt="Example of Vim Eldar with Python"/> <img src="https://raw.githubusercontent.com/agude/vim-eldar/image_rehost/images/eldar_cpp.png?raw=true" width="425" alt="Example of Vim Eldar with C++"/> 
+
 Eldar looks great in both the GUI and terminal because it uses fewer than 16
 colors. Eldar uses the [Tango color palette][tango] in the GUI by default, but
 these colors can be overridden by setting `g:eldar_*` variables (see below).
@@ -55,12 +57,12 @@ in your `.vimrc` before calling `colorscheme`:
 "------------------------
 if has('syntax')
     " Override Eldar GUI colors
-    g:eldar_red     = "#ff0000"
-    g:eldar_yellow  = "#ffff00"
-    g:eldar_green   = "#00ff00"
-    g:eldar_cyan    = "#00ffff"
-    g:eldar_blue    = "#0000ff"
-    g:eldar_magenta = "#ff00ff"
+    let g:eldar_red     = "#ff0000"
+    let g:eldar_yellow  = "#ffff00"
+    let g:eldar_green   = "#00ff00"
+    let g:eldar_cyan    = "#00ffff"
+    let g:eldar_blue    = "#0000ff"
+    let g:eldar_magenta = "#ff00ff"
 
     syntax enable             " Turn on syntax highlighting
     silent! colorscheme eldar " Custom color scheme
@@ -70,16 +72,16 @@ The GUI text and background colors default to "White" and "Black"
 respectively. To change these, set the following variables:
 
 ```vim
-g:eldar_text        = "#D3D3D3"
-g:eldar_background  = "#2B2B2B"
+let g:eldar_text        = "#D3D3D3"
+let g:eldar_background  = "#2B2B2B"
 ```
 
 By default terminal vim will use the background color and text color defined
 by your terminal profile. To override these colors, set:
 
 ```vim
-g:eldar_term_text        = "White"
-g:eldar_term_background  = "Black"
+let g:eldar_term_text        = "White"
+let g:eldar_term_background  = "Black"
 ```
 
 All these variables must be set before calling `colorscheme eldar`.
