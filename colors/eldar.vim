@@ -83,7 +83,7 @@ let s:ColourAssignment = {}
 " ---------------
 let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:gui_text,  'GUIBG':  s:gui_bg,  'CTERMBG':  s:term_bg,  'CTERMFG':  s:term_text}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
-let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'Black'}
+let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'NONE'}
 let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}
 let  s:ColourAssignment['CursorLineNr']  =  {'GUIFG':  'White'}
 
@@ -91,7 +91,7 @@ let  s:ColourAssignment['CursorLineNr']  =  {'GUIFG':  'White'}
 " Number column
 " -------------
 let  s:ColourAssignment['CursorColumn']  =  {'GUIBG':  'DarkGrey'}
-let  s:ColourAssignment['Folded']        =  {'GUIFG':  'Cyan',      'GUIBG':  'DarkGrey'}
+let  s:ColourAssignment['Folded']        =  {'GUIFG':  'DarkGrey',      'GUIBG':  'Black'}
 let  s:ColourAssignment['FoldColumn']    =  {'GUIBG':  'DarkGrey'}
 highlight! link SignColumn FoldColumn
 
@@ -132,6 +132,7 @@ let  s:ColourAssignment['NonText']     =  {'GUIFG':  s:blue,      'CTERMFG':  'b
 
 let  s:ColourAssignment['Todo']        =  {'GUIFG':  'Black',     'GUIBG':    s:yellow,  'CTERMBG':  'yellow'}
 let  s:ColourAssignment['Underlined']  =  {'GUIFG':  s:cyan,      'CTERMFG':  'cyan',    'GUI':      'Underline'}
+let s:ColourAssignment['EndOfBuffer']  =  {'GUIFG':  'Black',     'CTERMFG':  'Black'}
 let  s:ColourAssignment['Error']       =  {'GUIFG':  s:red,       'GUIBG':    'Black',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['ErrorMsg']    =  {'GUIFG':  s:red,       'GUIBG':    'White',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['WarningMsg']  =  {'GUIFG':  s:red,       'CTERMFG':  'red'}
