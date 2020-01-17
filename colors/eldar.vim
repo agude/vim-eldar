@@ -16,7 +16,7 @@
 "
 " ---------------------------------------------------------
 "
-" Copyright (c) 2016 Alexander Gude
+" Copyright (c) 2020 Alexander Gude
 "
 " Permission is hereby granted, free of charge, to any per‐
 " son obtaining a copy of this software and associated doc‐
@@ -132,7 +132,7 @@ let  s:ColourAssignment['NonText']     =  {'GUIFG':  s:blue,      'CTERMFG':  'b
 
 let  s:ColourAssignment['Todo']        =  {'GUIFG':  'Black',     'GUIBG':    s:yellow,  'CTERMBG':  'yellow'}
 let  s:ColourAssignment['Underlined']  =  {'GUIFG':  s:cyan,      'CTERMFG':  'cyan',    'GUI':      'Underline'}
-let s:ColourAssignment['EndOfBuffer']  =  {'GUIFG':  'Black',     'CTERMFG':  'Black'}
+let  s:ColourAssignment['EndOfBuffer'] =  {'GUIFG':  'Blue',     'CTERMFG':  'Blue'}
 let  s:ColourAssignment['Error']       =  {'GUIFG':  s:red,       'GUIBG':    'Black',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['ErrorMsg']    =  {'GUIFG':  s:red,       'GUIBG':    'White',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['WarningMsg']  =  {'GUIFG':  s:red,       'CTERMFG':  'red'}
