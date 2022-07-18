@@ -86,8 +86,6 @@ if has("gui_running")
 else 
     let  s:ColourAssignment['Normal']    =  {'CTERMFG':  s:term_text, 'CTERMBG':  s:term_bg}            
 endif
-
-let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:gui_text,  'GUIBG':  s:gui_bg,  'CTERMBG':  s:term_bg,  'CTERMFG':  s:term_text}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'NONE'}
 let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}
