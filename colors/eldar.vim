@@ -16,7 +16,7 @@
 "
 " ---------------------------------------------------------
 "
-" Copyright (c) 2020 Alexander Gude
+" Copyright (c) 2016--2022 Alexander Gude
 "
 " Permission is hereby granted, free of charge, to any per‐
 " son obtaining a copy of this software and associated doc‐
@@ -81,6 +81,12 @@ let s:ColourAssignment = {}
 
 " Editor settings
 " ---------------
+if has("gui_running")
+    let  s:ColourAssignment['Normal']    =  {'GUIFG':    s:gui_text,  'GUIBG':    s:gui_bg}                  
+else 
+    let  s:ColourAssignment['Normal']    =  {'CTERMFG':  s:term_text, 'CTERMBG':  s:term_bg}            
+endif
+
 let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:gui_text,  'GUIBG':  s:gui_bg,  'CTERMBG':  s:term_bg,  'CTERMFG':  s:term_text}
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'NONE'}
