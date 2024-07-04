@@ -16,7 +16,7 @@
 "
 " ---------------------------------------------------------
 "
-" Copyright (c) 2016--2022 Alexander Gude
+" Copyright (c) 2016--2024 Alexander Gude
 "
 " Permission is hereby granted, free of charge, to any per‐
 " son obtaining a copy of this software and associated doc‐
@@ -82,9 +82,9 @@ let s:ColourAssignment = {}
 " Editor settings
 " ---------------
 if has("gui_running")
-    let  s:ColourAssignment['Normal']    =  {'GUIFG':    s:gui_text,  'GUIBG':    s:gui_bg}                  
-else 
-    let  s:ColourAssignment['Normal']    =  {'CTERMFG':  s:term_text, 'CTERMBG':  s:term_bg}            
+    let  s:ColourAssignment['Normal']    =  {'GUIFG':    s:gui_text,  'GUIBG':    s:gui_bg}
+else
+    let  s:ColourAssignment['Normal']    =  {'CTERMFG':  s:term_text, 'CTERMBG':  s:term_bg}
 endif
 let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}
 let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'NONE'}
@@ -136,7 +136,7 @@ let  s:ColourAssignment['NonText']     =  {'GUIFG':  s:blue,      'CTERMFG':  'b
 
 let  s:ColourAssignment['Todo']        =  {'GUIFG':  'Black',     'GUIBG':    s:yellow,  'CTERMBG':  'yellow'}
 let  s:ColourAssignment['Underlined']  =  {'GUIFG':  s:cyan,      'CTERMFG':  'cyan',    'GUI':      'Underline'}
-let  s:ColourAssignment['EndOfBuffer'] =  {'GUIFG':  'Blue',     'CTERMFG':  'Blue'}
+let  s:ColourAssignment['EndOfBuffer'] =  {'GUIFG':  s:blue,      'CTERMFG':  'Blue'}
 let  s:ColourAssignment['Error']       =  {'GUIFG':  s:red,       'GUIBG':    'Black',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['ErrorMsg']    =  {'GUIFG':  s:red,       'GUIBG':    'White',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}
 let  s:ColourAssignment['WarningMsg']  =  {'GUIFG':  s:red,       'CTERMFG':  'red'}
