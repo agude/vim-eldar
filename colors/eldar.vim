@@ -211,10 +211,10 @@ highlight! link PmenuSbar Pmenu
 
 " Spelling
 " --------
-let  s:ColourAssignment['SpellBad']    =  {'GUIFG':  'NONE',  'GUISP':  s:red,     'CTERMFG':  'red',     'GUI':  'undercurl'}
-let  s:ColourAssignment['SpellCap']    =  {'GUIFG':  'NONE',  'GUISP':  s:blue,    'CTERMFG':  'blue',    'GUI':  'undercurl'}
-let  s:ColourAssignment['SpellLocal']  =  {'GUIFG':  'NONE',  'GUISP':  s:yellow,  'CTERMFG':  'yellow',  'GUI':  'undercurl'}
-let  s:ColourAssignment['SpellRare']   =  {'GUIFG':  'NONE',  'GUISP':  s:green,   'CTERMFG':  'green',   'GUI':  'undercurl'}
+let  s:ColourAssignment['SpellBad']    =  {'GUIFG':  s:red,     'GUISP':  s:red,     'CTERMFG':  'red',     'GUI':  'undercurl'}
+let  s:ColourAssignment['SpellCap']    =  {'GUIFG':  s:blue,    'GUISP':  s:blue,    'CTERMFG':  'blue',    'GUI':  'undercurl'}
+let  s:ColourAssignment['SpellLocal']  =  {'GUIFG':  s:yellow,  'GUISP':  s:yellow,  'CTERMFG':  'yellow',  'GUI':  'undercurl'}
+let  s:ColourAssignment['SpellRare']   =  {'GUIFG':  s:green,   'GUISP':  s:green,   'CTERMFG':  'green',   'GUI':  'undercurl'}
 
 
 " Text Formatting
