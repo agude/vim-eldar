@@ -142,7 +142,7 @@ call s:HL('Visual', s:none, s:darkgrey)
 highlight! link VisualNOS Visual
 call s:HL('NonText', s:blue, s:none)
 call s:HL('Todo', s:black, s:yellow)
-call s:HL('Underlined', s:cyan, s:none, 'Underline')
+call s:HL('Underlined', s:cyan, s:none, 'Underline', 'Underline', s:cyan[0])
 call s:HL('EndOfBuffer', s:blue, s:none)
 call s:HL('Error', s:red, s:black, 'Reverse,Bold')
 call s:HL('ErrorMsg', s:red, s:white, 'Reverse,Bold')
