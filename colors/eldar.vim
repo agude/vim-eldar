@@ -16,7 +16,7 @@
 "
 " ---------------------------------------------------------
 "
-" Copyright (c) 2016--2024 Alexander Gude
+" Copyright (c) 2016--2026 Alexander Gude
 "
 " Permission is hereby granted, free of charge, to any per‐
 " son obtaining a copy of this software and associated doc‐
@@ -72,9 +72,7 @@ let s:white    = ['White', 'White']
 let s:black    = ['Black', 'Black']
 let s:slate    = ['#2e3436', 'DarkGray']  " Tango Slate shadow (very dark gray)
 let s:darkgray = ['DarkGray', 'DarkGray']
-let s:darkgrey = ['DarkGrey', 'DarkGrey']
 let s:gray     = ['Gray', 'Gray']
-let s:grey     = ['Grey', 'Grey']
 
 " Helper function to set highlight groups
 " Arguments: group, fg, bg, [gui_attr], [cterm_attr], [guisp]
@@ -110,8 +108,8 @@ call s:HL('CursorLineNr', s:white, s:none)
 highlight! link CursorColumn CursorLine
 highlight! link CursorLineSign CursorLine
 highlight! link CursorLineFold CursorLine
-call s:HL('Folded', s:darkgrey, s:black)
-call s:HL('FoldColumn', s:none, s:darkgrey)
+call s:HL('Folded', s:darkgray, s:black)
+call s:HL('FoldColumn', s:none, s:darkgray)
 highlight! link SignColumn FoldColumn
 
 " Window/Tab delimiters
@@ -132,7 +130,7 @@ call s:HL('IncSearch', s:none, s:none, 'Reverse')
 " -------------
 call s:HL('StatusLine', s:white, s:bg, 'Bold,Reverse')
 call s:HL('StatusLineNC', s:white, s:bg, 'Reverse')
-call s:HL('WildMenu', s:white, s:darkgrey, 'Bold')
+call s:HL('WildMenu', s:white, s:darkgray, 'Bold')
 call s:HL('Question', s:blue, s:none)
 call s:HL('Title', s:none, s:none, 'Bold')
 call s:HL('ModeMsg', s:none, s:none, 'Bold')
@@ -141,7 +139,7 @@ call s:HL('MoreMsg', s:green, s:none)
 " Visual aid
 " ----------
 call s:HL('MatchParen', s:none, s:cyan)
-call s:HL('Visual', s:none, s:darkgrey)
+call s:HL('Visual', s:none, s:darkgray)
 highlight! link VisualNOS Visual
 call s:HL('NonText', s:blue, s:none)
 call s:HL('Todo', s:black, s:yellow)
@@ -205,9 +203,9 @@ call s:HL('DiffText', s:blue, s:black, 'Reverse,Bold')
 
 " Completion menu
 " ---------------
-call s:HL('Pmenu', s:black, s:grey)
-call s:HL('PmenuSel', s:yellow, s:darkgrey, 'Bold')
-call s:HL('PmenuThumb', s:none, s:darkgrey)
+call s:HL('Pmenu', s:black, s:gray)
+call s:HL('PmenuSel', s:yellow, s:darkgray, 'Bold')
+call s:HL('PmenuThumb', s:none, s:darkgray)
 highlight! link PmenuSbar Pmenu
 
 " Spelling
