@@ -70,6 +70,7 @@ let s:bg = [get(g:, 'eldar_background', 'Black'), get(g:, 'eldar_term_background
 let s:none     = ['NONE', 'NONE']
 let s:white    = ['White', 'White']
 let s:black    = ['Black', 'Black']
+let s:slate    = ['#2e3436', 'DarkGray']  " Tango Slate shadow (very dark gray)
 let s:darkgray = ['DarkGray', 'DarkGray']
 let s:darkgrey = ['DarkGrey', 'DarkGrey']
 let s:gray     = ['Gray', 'Gray']
@@ -100,13 +101,15 @@ else
   call s:HL('Normal', ['NONE', s:fg[1]], ['NONE', s:bg[1]])
 endif
 call s:HL('Cursor', s:none, s:none, 'Reverse')
-call s:HL('CursorLine', s:none, s:none)
+call s:HL('CursorLine', s:none, s:slate)
 call s:HL('LineNr', s:darkgray, s:none)
 call s:HL('CursorLineNr', s:white, s:none)
 
 " Number column
 " -------------
-call s:HL('CursorColumn', s:none, s:darkgrey)
+highlight! link CursorColumn CursorLine
+highlight! link CursorLineSign CursorLine
+highlight! link CursorLineFold CursorLine
 call s:HL('Folded', s:darkgrey, s:black)
 call s:HL('FoldColumn', s:none, s:darkgrey)
 highlight! link SignColumn FoldColumn
