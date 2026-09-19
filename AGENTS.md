@@ -1,7 +1,7 @@
 # AGENTS.md
 
 This file provides guidance to AI Agents when working with code in this
-repository. `CLAUDE.md` and `GEMINI.md` are symlinks to this file.
+repository. `GEMINI.md` is a symlink to this file.
 
 ## Project Overview
 
